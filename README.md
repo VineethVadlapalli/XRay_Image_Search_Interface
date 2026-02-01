@@ -51,12 +51,3 @@ Filtering: Filter results by category (Chest, Spine, Dental, etc.).
 The embeddings.pkl file is generated automatically to cache search vectors for performance.
 
 If you add new images to the dataset, delete embeddings.pkl and restart the app to re-index them.
-
-
-### **One Final Check**
-Before zipping your folder, make sure your folder looks **exactly** like the structure in the README above.
-1.  Is `metadata.csv` there? (If not, run `python data_prep.py` one last time).
-2.  Did you include the `dataset` folder inside `code` or at the root?
-    * *Correction:* In the README above, I assumed `dataset/` is inside `code/`. If your submission structure has `dataset/` *outside* the `code/` folder (as we discussed in the "Final Packaging" step), you might need to adjust the path in `data_prep.py` or just move the dataset folder into `code/` to keep it simple and self-contained for the reviewer. **Moving it inside `code/` is usually safer** so the scripts run without path errors.
-
-**Would you like me to help you verify your final folder structure before you zip it?**
